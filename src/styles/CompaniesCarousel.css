@@ -1,0 +1,99 @@
+.companies-section {
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+  
+  /* Overlap settings */
+  position: relative;
+  z-index: 10;
+  margin-top: -5rem; /* Pulls the section up over the video */
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0 -15px 40px rgba(0,0,0,0.1);
+}
+
+.companies-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #666; /* Matching dark gray title in a neutral setting */
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Add a gradient fade on left and right for smooth entry/exit */
+.carousel-container::before,
+.carousel-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+.carousel-container::before {
+  left: 0;
+  background: linear-gradient(to right, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.carousel-container::after {
+  right: 0;
+  background: linear-gradient(to left, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.carousel-track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  animation: scroll-left 30s linear infinite;
+}
+
+/* Pause animation on hover */
+.carousel-track:hover {
+  animation-play-state: paused;
+}
+
+.carousel-slide {
+  padding: 0 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo {
+  height: 50px; /* Same visual height for all */
+  width: auto;
+  max-width: 180px;
+  object-fit: contain;
+  /* Dark gray grayscale by default */
+  filter: grayscale(100%) opacity(0.5);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Reveal real color on hover */
+.company-logo:hover {
+  filter: grayscale(0%) opacity(1);
+  transform: scale(1.05);
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* Translate half of the track (since we duplicated the logos array) */
+    transform: translateX(-50%);
+  }
+}
