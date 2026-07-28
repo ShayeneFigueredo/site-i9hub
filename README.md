@@ -18,20 +18,6 @@ Este projeto foi construído utilizando as melhores e mais modernas ferramentas 
 * **Animações e Transições:** Botões animados, componentes interativos e barra superior que responde às interações do usuário.
 * **Empresas do Grupo:** Espaços de destaque e carrosséis dedicados às empresas parceiras, como **Viacast Soluções** e **JPCA**, destacando as informações de seus fundadores (Paulo Feres e João Paulo Cruz Araújo, respectivamente) e de seus projetos de ponta.
 
-## 🌐 Como fazer o Deploy no GitHub Pages
-
-O site já está configurado com um fluxo de automação (GitHub Actions) para ser publicado diretamente e de graça no próprio GitHub.
-
-### Passo a passo no GitHub:
-1. Acesse o seu repositório no GitHub (`site-i9hub`).
-2. Clique na aba **"Settings"** (Configurações) no menu superior.
-3. No menu lateral esquerdo, desça até encontrar **"Pages"**.
-4. Na seção **"Build and deployment"**, no campo **"Source"**, mude de "Deploy from a branch" para **"GitHub Actions"**.
-5. Pronto! Agora vá na aba **"Actions"** no topo do seu repositório. O GitHub já estará processando e colocando o seu site no ar.
-6. Em alguns minutos, um link como `https://ShayeneFigueredo.github.io/site-i9hub/` estará disponível para você acessar.
-
-> Sempre que você rodar um `git push`, o GitHub vai atualizar o site sozinho!`
-
 ## ⚙️ Como rodar o projeto localmente
 
 Siga o passo a passo abaixo para rodar o site no seu computador:

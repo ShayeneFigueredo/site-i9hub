@@ -11,26 +11,26 @@ const cards = [
   {
     id: 1,
     img: img1,
-    title: 'Lorem Ipsum 1',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.',
+    title: 'Espaço para inovar',
+    description: 'No i9hub, cada porta abre um ambiente de inovação que inspira criatividade e transforma ideias brilhantes em soluções reais para o mercado.',
   },
   {
     id: 2,
     img: img2,
-    title: 'Lorem Ipsum 2',
-    description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    title: 'Ambiente dinâmico',
+    description: 'Do hardware ao software, o i9 proporciona infraestrutura de ponta e tecnologias avançadas para acelerar o desenvolvimento do seu projeto.',
   },
   {
     id: 3,
     img: img3,
-    title: 'Lorem Ipsum 3',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    title: 'Colaboração',
+    description: 'Acreditamos que cada empresa se une à outra, sendo o networking nosso maior pilar para construir parcerias estratégicas e negócios de sucesso.',
   },
   {
     id: 4,
     img: img4,
-    title: 'Lorem Ipsum 4',
-    description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    title: 'Times de qualidade',
+    description: 'O i9 tem pessoas com grande capacidade intelectual e mentes criativas, formando uma comunidade de especialistas prontos para superar desafios.',
   }
 ];
 

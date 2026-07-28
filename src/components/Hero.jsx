@@ -1,5 +1,6 @@
 import React from 'react';
 import i9Banner from '../assets/i9-banner.png';
+import bannerVideo from '../assets/videos/banner-site-i9.mp4';
 
 const Hero = ({ t }) => {
   return (
@@ -28,10 +29,17 @@ const Hero = ({ t }) => {
           alignItems: 'center', 
           justifyContent: 'center',
           color: '#888',
-          position: 'relative'
+          position: 'relative',
+          overflow: 'hidden'
         }}>
-          <span>[ Vídeo Capa: Insira seu vídeo aqui ]</span>
-          {/* Pode substituir o span por uma tag <video> posteriormente */}
+          <video 
+            src={bannerVideo}
+            autoPlay
+            loop
+            muted
+            playsInline
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          />
         </div>
 
       </div>
