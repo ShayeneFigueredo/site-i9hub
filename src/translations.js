@@ -58,7 +58,7 @@ export const translations = {
       jpcaBtn: 'Saiba mais'
     },
     companies: {
-      title: 'NOSSAS EMPRESAS'
+      title: 'STARTUPS DO ECOSSISTEMA'
     }
   },
   en: {
@@ -120,7 +120,7 @@ export const translations = {
       jpcaBtn: 'Learn more'
     },
     companies: {
-      title: 'OUR COMPANIES'
+      title: 'ECOSYSTEM STARTUPS'
     }
   }
 };
